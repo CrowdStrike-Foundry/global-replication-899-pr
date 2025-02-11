@@ -1,0 +1,38 @@
+app_id: fbeeea36d0b442b78e3ee95ab79b4e67
+name: Global-replication-899-PR
+description: ""
+logo: ""
+vendor: Okta
+vendor_products:
+    - OktaIdentity
+    - OktaUserAccess
+use_case: Identity & Access
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows: []
+parsers:
+    - name: Okta999-PR
+      description: Okta999-PR with json change desc
+      path: parsers/Okta999-PR/script.txt
+      fields_to_tag: []
+      fields_to_remove: []
+      is_data_connector: true
+      tests_path: ""
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
